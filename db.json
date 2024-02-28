@@ -1,170 +1,164 @@
 {
-    "motion": {
-        "motion": [
-            {
-                "id": 1,
-                "move": "UP"
-            },
-            {
-                "id": 2,
-                "move": "DOWN"
-            },
-            {
-                "id": 3,
-                "move": "RIGHT"
-            },
-            {
-                "id": 4,
-                "move": "LEFT"
-            },
-            {
-                "id": 5,
-                "move": "Foward"
-            },
-            {
-                "id": 6,
-                "move": "Backward"
-            }
-        ]
-    },
-    "rotation": {
-        "rotation": [
-            {
-                "id": 1,
-                "rotate": "45",
-                "direction": "X"
-            },
-            {
-                "id": 2,
-                "rotate": "180",
-                "direction": "Y"
-            },
-            {
-                "id": 3,
-                "rotate": "270",
-                "direction": "Z"
-            },
-            {
-                "id": 4,
-                "rotate": "90",
-                "direction": "Z"
-            },
-            {
-                "id": 5,
-                "rotate": "180",
-                "direction": "X"
-            },
-            {
-                "id": 6,
-                "rotate": "270",
-                "direction": "Y"
-            }
-        ]
-    },
-    "operations": {
-        "operations": [
+    "motion": [
+        {
+            "id": 1,
+            "move": "UP"
+        },
+        {
+            "id": 2,
+            "move": "DOWN"
+        },
+        {
+            "id": 3,
+            "move": "RIGHT"
+        },
+        {
+            "id": 4,
+            "move": "LEFT"
+        },
+        {
+            "id": 5,
+            "move": "Foward"
+        },
+        {
+            "id": 6,
+            "move": "Backward"
+        }
+    ],
+    "rotation": [
+        {
+            "id": 1,
+            "rotate": "45",
+            "direction": "X"
+        },
+        {
+            "id": 2,
+            "rotate": "180",
+            "direction": "Y"
+        },
+        {
+            "id": 3,
+            "rotate": "270",
+            "direction": "Z"
+        },
+        {
+            "id": 4,
+            "rotate": "90",
+            "direction": "Z"
+        },
+        {
+            "id": 5,
+            "rotate": "180",
+            "direction": "X"
+        },
+        {
+            "id": 6,
+            "rotate": "270",
+            "direction": "Y"
+        }
+    ],
+    "operations": [
+        {
+            "move": 1,
+            "rotate": 2
+        },
+        {
+            "move": 2,
+            "rotate": 4
+        },
+        {
+            "move": 4,
+            "rotate": 1
+        },
+        {
+            "move": 2,
+            "rotate": 6
+        },
+        {
+            "move": 5,
+            "rotate": 5
+        },
+        {
+            "move": 2,
+            "rotate": 4
+        },
+        {
+            "move": 6,
+            "rotate": 1
+        },
+        {
+            "move": 2,
+            "rotate": 2
+        },
+        {
+            "move": 4,
+            "rotate": 2
+        },
+        {
+            "move": 3,
+            "rotate": 3
+        },
+        {
+            "move": 6,
+            "rotate": 6
+        },
+        [
             {
                 "move": 1,
                 "rotate": 2
             },
             {
-                "move": 2,
-                "rotate": 4
-            },
-            {
-                "move": 4,
-                "rotate": 1
-            },
-            {
-                "move": 2,
+                "move": 3,
                 "rotate": 6
-            },
+            }
+        ],
+        [
             {
-                "move": 5,
-                "rotate": 5
+                "move": 4,
+                "rotate": 3
             },
             {
                 "move": 2,
                 "rotate": 4
-            },
+            }
+        ],
+        [
             {
-                "move": 6,
-                "rotate": 1
-            },
-            {
-                "move": 2,
-                "rotate": 2
-            },
-            {
-                "move": 4,
+                "move": 1,
                 "rotate": 2
             },
             {
                 "move": 3,
-                "rotate": 3
+                "rotate": 6
+            }
+        ],
+        [
+            {
+                "move": 2,
+                "rotate": 2
             },
             {
-                "move": 6,
+                "move": 3,
+                "rotate": 5
+            },
+            {
+                "move": 2,
+                "rotate": 6
+            }
+        ],
+        [
+            {
+                "move": 1,
                 "rotate": 6
             },
-            [
-                {
-                    "move": 1,
-                    "rotate": 2
-                },
-                {
-                    "move": 3,
-                    "rotate": 6
-                }
-            ],
-            [
-                {
-                    "move": 4,
-                    "rotate": 3
-                },
-                {
-                    "move": 2,
-                    "rotate": 4
-                }
-            ],
-            [
-                {
-                    "move": 1,
-                    "rotate": 2
-                },
-                {
-                    "move": 3,
-                    "rotate": 6
-                }
-            ],
-            [
-                {
-                    "move": 2,
-                    "rotate": 2
-                },
-                {
-                    "move": 3,
-                    "rotate": 5
-                },
-                {
-                    "move": 2,
-                    "rotate": 6
-                }
-            ],
-            [
-                {
-                    "move": 1,
-                    "rotate": 6
-                },
-                {
-                    "move": 3,
-                    "rotate": 6
-                },
-                {
-                    "move": 3,
-                    "rotate": 3
-                }
-            ]
+            {
+                "move": 3,
+                "rotate": 6
+            },
+            {
+                "move": 3,
+                "rotate": 3
+            }
         ]
-    }
+    ]
 }
